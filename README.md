@@ -40,6 +40,9 @@
 
 ### 如何下载
 
+1. 在[此页面](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology)右边的发行版中选择自己想要下载的版本。
+2. 或者点击[该链接](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)下载最新版本的帝国神话双开。
+
 <br/>
 
 ***
