@@ -87,10 +87,10 @@
 
 ### 东洲地图（新图）(图片来源于网络)
 
-* 若图片无法加载可点击[这里](/map/东洲（图片来源于网络）.png)
+* 若图片无法加载可点击[这里](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v1.0/%E4%B8%9C%E6%B4%B2%EF%BC%88%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90%E4%BA%8E%E7%BD%91%E7%BB%9C%EF%BC%89.png)下载
 ![图片来源于网络](/map/东洲（图片来源于网络）.png)
 
 ### 中洲地图（老图）（图片来源于网络）
 
-* 若图片无法加载可点击[这里](/map/中洲（图片来源于网络）.png)
+* 若图片无法加载可点击[这里](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v1.0/%E4%B8%AD%E6%B4%B2%EF%BC%88%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90%E4%BA%8E%E7%BD%91%E7%BB%9C%EF%BC%89.png)下载
 ![图片来源于网络](/map/中洲（图片来源于网络）.png)
