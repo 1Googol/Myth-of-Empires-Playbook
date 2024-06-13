@@ -1,6 +1,10 @@
 # 帝国神话指北
 
-[![download](https://img.shields.io/badge/点击下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)
+[![download](https://img.shields.io/badge/点击立即下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)  
+
+[![new issues](https://img.shields.io/badge/点击-提交问题或建议-green)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/issues/new)
+  
+[![buy me a coffee](https://img.shields.io/badge/%E7%BB%99%E6%88%91%E4%B8%80%E6%9D%AF%E5%86%B0%E7%BE%8E%E5%BC%8F-orange?logo=buymeacoffee&label=ice)](/res/buymeacoffee/Pneumonoultramicroscopicsilicovolcanoconiosis.png)
 
 <br/>
 
