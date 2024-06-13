@@ -1,5 +1,6 @@
 # 帝国神话指北
 
+[![download](https://img.shields.io/badge/点击立即下载-帝国神话种植计算器-blue.svg)]()
 [![download](https://img.shields.io/badge/点击立即下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)  
 
 [![new issues](https://img.shields.io/badge/点击-提交问题或建议-green)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/issues/new)
@@ -31,12 +32,6 @@
 <br/>
 <br/>
 
-<br/>
-
-***
-
-<br/>
-
 ## 武将
 
 ### 攻城武将
@@ -53,43 +48,43 @@
 
 #### 明确增加攻城伤害技能
 
-  ![无坚不陷](/res/general_skills/无坚不陷.png)  
-    `无坚不陷：操作的攻城器械有额外30%的攻城伤害`
+* ![无坚不陷](/res/general_skills/无坚不陷.png)  
+  `无坚不陷：操作的攻城器械有额外30%的攻城伤害`
   
-  ![自命不凡](/res/general_skills/自命不凡.png)  
+* ![自命不凡](/res/general_skills/自命不凡.png)  
   `自命不凡：智力类技能提高40级， 其他所有技能降低2级`
 
-  ![攻城大师](/res/general_skills/攻城大师.png)  
+* ![攻城大师](/res/general_skills/攻城大师.png)  
   `攻城大师：攻城技能等级提高40级`
 
-  ![国之儒将](/res/general_skills/国之儒将.png)  
+* ![国之儒将](/res/general_skills/国之儒将.png)  
   `国之儒将：所有智力类技能等级提高20级`
 
 #### 攻城适用激怒
 
-  ![阴晴不定](/res/general_skills/阴晴不定.png)  
+* ![阴晴不定](/res/general_skills/阴晴不定.png)  
   `阴晴不定：每次攻击或被攻击都有15%几率触发暴怒效果（攻击力提高50%移动速度提高30%持续10秒）`
 
 #### 攻城840伤害加成
 
-![alt text](/res/general_skills/攻城840.png)
+* ![攻城840](/res/general_skills/攻城840.png)
 
 #### 攻城940伤害加成
 
-![攻城940](/res/general_skills/攻城940.png)
+* ![攻城940](/res/general_skills/攻城940.png)
 
 #### 智力100伤害加成
 
-  ![智力](/res/general_skills/智力.png)
+* ![智力](/res/general_skills/智力.png)
 
 #### 打犀牛伤害加成
 
-`体质中的驯兽等级在武将打动物时有猎人伤害加成`
+* `体质中的驯兽等级在武将打动物时有猎人伤害加成`
 
 #### 抗伤害技能
 
-![破军](/res/general_skills/破军.png)  
-`破军：生命上限提高50%`
+* ![破军](/res/general_skills/破军.png)  
+ `破军：生命上限提高50%`
 
 #### 武将攻城熟练度练习
 
