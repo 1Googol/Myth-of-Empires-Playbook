@@ -1,8 +1,7 @@
 # 帝国神话指北
 
 [![download](https://img.shields.io/badge/点击下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)
-[![download](https://img.shields.io/badge/点击下载-东洲地图-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v1.0/%E4%B8%9C%E6%B4%B2%EF%BC%88%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90%E4%BA%8E%E7%BD%91%E7%BB%9C%EF%BC%89.png)
-[![download](https://img.shields.io/badge/点击下载-中洲地图-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v1.0/%E4%B8%AD%E6%B4%B2%EF%BC%88%E5%9B%BE%E7%89%87%E6%9D%A5%E6%BA%90%E4%BA%8E%E7%BD%91%E7%BB%9C%EF%BC%89.png)
+
 <br/>
 
 <br/>
@@ -59,7 +58,7 @@
   
   4. 切换到种植方案生成界面，有两种方案，一种是算只种一种种子，最多能种多少。还有一种是你想在一块田上种2种或多种作物，平均每种能种几株。
 
-      ![种植演示](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHk0MHBvY3A2eDlkYWU0ajR5eXp4c284bjdpZ2YzMmswZTlraHpsMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UufDtO8FpXInXBmOdo/giphy-downsized-large.gif)
+      <video src="res/tools/种植演示.mp4"></video>
 
 ### 帝国神话Steam双开（基于steam）
 
