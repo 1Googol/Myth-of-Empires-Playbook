@@ -58,7 +58,7 @@
   
   4. 切换到种植方案生成界面，有两种方案，一种是算只种一种种子，最多能种多少。还有一种是你想在一块田上种2种或多种作物，平均每种能种几株。
 
-      <video src="res/tools/种植演示.mp4"></video>
+      ![演示](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGp5bTMzYmdvbndpbmRtMDdxdDZydHE3NHc3cGlxdDlwdzA1bTlkMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PHjIe76XfrNw5EFy0u/giphy.gif)
 
 ### 帝国神话Steam双开（基于steam）
 
