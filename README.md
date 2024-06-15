@@ -15,14 +15,16 @@
   * [攻城武将](#攻城武将)
 * [马](#马)
   * [跳跳马](#跳跳马)
+  * [觉醒马](#觉醒马)
 * [PVP](#pvp)
-  * [攻城器械](#攻城器械)
+  * [攻城器械](#攻城器械) - // TODO
+  * [采集点产出](#采集点产出)
   * [东洲桃花岛熊洞](#东洲桃花岛熊洞)
-    * [对于熊洞内的进攻与防守（无人守）](#对于熊洞内的进攻与防守无人守)
-    * [熊洞的价值](#熊洞的价值)
+  * [东洲水底洞](#东洲水底洞) - // TODO
   * [隔85墙传送物资](#隔85墙传送物资)
   * [查看跨郡路线](#查看跨郡路线)
 * [帝国商业](#帝国商业)
+* [帝国农业](#帝国农业)
 * [帝国神话工具箱](#帝国神话工具箱)
   * [种植计算器](#种植计算器种植方案生成)
   * [帝国神话Steam双开](#帝国神话steam双开基于steam)
@@ -95,7 +97,8 @@
 #### 攻城武将选择
 
 ```txt
-可以看到攻城熟练度840和940的伤害差了100%，顶好几个技能，因此要较低成本和较快达到较高攻城伤害，选择阴晴不定和攻城五星或攻城900的武将。如果有极品攻城武将，攻城星级可以买武将专精点补。挂箭塔的武将伤害越高越好，挂犀牛的武将因为要抗箭塔伤害需要一些抗伤害技能。总得来说攻城900和阴晴不定加伤害最多且最好练。
+伤害最高的是满模板阴晴蛾贼步，比较难得。 
+一般批量攻城武将只要阴晴不定和攻城900就能相对容易达到比较高的伤害。
 ```
 
 <br/>
@@ -143,6 +146,58 @@
 
   ![不死的卢演示](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDlpcW5ubjBtdDVidzExajlyMTNsZmFwdGZ6c2Vib3VsMDVhMHVpdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xBuLPerKW5v5zIUbTs/giphy-downsized-large.gif)
 
+## 觉醒马
+
+* 迅捷的红色无双马
+
+  ![hong1](/res/horse_skills/迅捷的红色无双.png)
+  ![wuying](/res/horse_skills/无影.png)
+
+* 聪颖的红色无双马
+
+  ![hong2](/res/horse_skills/聪颖的红色无双.png)
+  ![dazuima](/res/horse_skills/大追马.png)
+
+* 健壮的红色无双马
+
+  ![hong3](/res/horse_skills/健壮的红色无双.png)
+  ![tianmahuyou](/res/horse_skills/天马护佑.png)
+
+* 强壮的褐色无双马
+
+  ![he1](/res/horse_skills/强壮的褐色无双.png)
+  ![jianyi](/res/horse_skills/坚毅.png)
+
+* 健壮的褐色无双马
+
+  ![he2](image.png)
+  ![wuxiekeji](image-1.png)
+
+* 坚毅的白色无双马
+
+  ![bai1](/res/horse_skills/坚毅的白色无双.png)
+  ![xueshi](/res/horse_skills/血誓.png)
+
+* 聪颖的白色无双马
+
+  ![bai2](/res/horse_skills/聪颖的白色无双.png)
+  ![nidishixing](/res/horse_skills/泥地适性.png)
+
+* 坚毅的黑色无双马
+
+  ![hei1](/res/horse_skills/坚毅的黑色无双.png)
+  ![buqu](/res/horse_skills/不屈.png)
+
+* 聪颖的黑色无双马
+
+  ![hei2](/res/horse_skills/聪颖的黑色无双.png)
+  ![dataoma](/res/horse_skills/大逃马.png)
+
+* 坚毅的栗色无双马
+
+  ![li1](/res/horse_skills/坚毅的栗色无双马.png)
+  ![lidawuqiong](/res/horse_skills/力大无穷.png)
+  
 <br/>
 
 ***
@@ -155,7 +210,101 @@
 
 // TODO
 
+### 采集点产出
+
+```txt
+势力4级、6级及8级分别可解锁初级、中级和高级资源采集点建造。
+```
+
+* 中级矿
+
+  ```txt
+  可以在中级矿采集点或高级矿采集点建造。满仓库40个格子，产物比例大致为 铜矿16 ：铁矿14 ：硝石4 ： 玄铁矿2 ：硫磺2 ：煤矿2。 
+  ```
+
+  ![铜16](/res/collection/铜矿.png)
+  ![铁14](/res/collection/铁矿.png)
+  ![硝4](/res/collection/硝石.png)
+  ![玄2](/res/collection/玄铁矿.png)
+  ![硫2](/res/collection/硫磺.png)
+  ![煤2](/res/collection/煤.png)
+
+* 中级木
+
+  ```txt
+  满仓库40个格子，产物比例大致为 硬木11 ： 树皮8 ： 树枝6： 树脂5 ： 完整木材5 ： 茅草4 ： 稀有木材1。
+  ```
+
+  ![硬木11](/res/collection/硬木.png)
+  ![树皮8](/res/collection/树皮.png)
+  ![树枝6](/res/collection/树枝.png)
+  ![树脂5](/res/collection/树脂.png)
+  ![完整木材5](/res/collection/完整木材.png)
+  ![茅草4](/res/collection/茅草.png)
+  ![稀有木材1](/res/collection/稀有木材.png)
+
+* 中级沙
+
+  ```txt
+  满仓库40个格子，产物比例大致为 沙子11 ： 黏土矿6 ： 完整石材6 ： 石块5： 碎石5： 石膏3 : 高岭土3 ：稀有石材1。
+  ```
+
+  ![沙子11](/res/collection/沙子.png)
+  ![黏土矿6](/res/collection/黏土矿.png)
+  ![完整石材6](/res/collection/完整石材.png)
+  ![石块5](/res/collection/石块.png)
+  ![碎石5](/res/collection/碎石.png)
+  ![石膏3](/res/collection/石膏.png)
+  ![高岭土3](/res/collection/高岭土.png)
+  ![稀有石材1](/res/collection/稀有石材.png)
+
+* 高级矿
+
+  ```txt
+  满仓库60个格子，产物大致比例为 铁矿31 ：铜矿10 ： 玄铁矿6 ： 陨铁矿4 ： 煤4 ： 硫磺3 ： 硝石2。
+  ```
+
+  ![铁31](/res/collection/铁矿.png)
+  ![铜矿10](/res/collection/铜矿.png)
+  ![玄铁矿6](/res/collection/玄铁矿.png)
+  ![陨铁锭4](/res/collection/陨铁矿.png)
+  ![煤4](/res/collection/煤.png)
+  ![硫磺3](/res/collection/硫磺.png)
+  ![硝石2](/res/collection/硝石.png)
+
+* 高级木
+
+  ```txt
+  满仓库60个格子，产物大致比例为 树皮14 ： 硬木13 ： 完整木材10 ： 树脂9 ：树枝6 ： 茅草6 ： 稀有木材2。
+  ```
+
+  ![树皮14](/res/collection/树皮.png)
+  ![硬木13](/res/collection/硬木.png)
+  ![完整木材10](/res/collection/完整木材.png)
+  ![树脂9](/res/collection/树脂.png)
+  ![树枝6](/res/collection/树枝.png)
+  ![茅草6](/res/collection/茅草.png)
+  ![稀有木材2](/res/collection/稀有木材.png)
+
+* 高级沙
+
+  ```txt
+  满仓库60个格子，产物比例大致为 沙子19 ： 完整石材14 ：黏土矿8 ： 石膏6 ： 石块4 ： 高岭土4 ： 碎石3： 稀有石材2。
+  ```
+
+  ![沙子19](/res/collection/沙子.png)
+  ![完整石材14](/res/collection/完整石材.png)
+  ![黏土矿8](/res/collection/黏土矿.png)
+  ![石膏6](/res/collection/石膏.png)
+  ![石块4](/res/collection/石块.png)
+  ![高岭土4](/res/collection/高岭土.png)
+  ![碎石3](/res/collection/碎石.png)
+  ![稀有石材2](/res/collection/稀有石材.png)
+
 ### 东洲桃花岛熊洞
+
+* [对于熊洞内的进攻与防守](#对于熊洞内的进攻与防守无人守)
+* [熊洞的价值](#熊洞的价值)
 
 #### 对于熊洞内的进攻与防守（无人守）
 
@@ -262,6 +411,10 @@
   水贼60营地和强盗60营地非常近。离雪山和强盗大据点也比较近。
   ```
 
+### 东洲水底洞
+
+// TODO
+
 ### 隔85墙传送物资
 
 ```txt
@@ -305,6 +458,28 @@
   ```txt
   此类商品表现为价格高了基本不会有人买，但是可能突然被人买光了。比如箭塔，平时没存货，被拆了就必须购买。
   ```
+
+<br/>
+
+***
+
+<br/>
+
+## 帝国农业
+
+* 放势力田挂武将。
+
+  ![田](/res/farming/field_1.png)
+
+* 一块田可以种60株作物，给一个窝窝头让武将工作
+
+  ![种](/res/farming/field_2.png)
+  
+  `可以看到一个窝窝头工作半小时，既可以种又不会收，给完窝窝头和种子就什么都不用管了`
+
+* 然后等成熟直接采集小车收，只要水肥够，就可以不断重复这个过程，不需要锄地和其它繁琐操作
+
+  ![收](/res/farming/field_3.png)
 
 <br/>
 
