@@ -170,8 +170,8 @@
 
 * 健壮的褐色无双马
 
-  ![he2](image.png)
-  ![wuxiekeji](image-1.png)
+  ![he2](/res/horse_skills/健壮的褐色无双.png)
+  ![wuxiekeji](/res/horse_skills/天马护佑.png)
 
 * 坚毅的白色无双马
 
