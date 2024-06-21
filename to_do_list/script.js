@@ -11,6 +11,7 @@
       /* 清楚当前显示内容 */
       const ul = document.querySelector(".toDoList");
       ul.innerHTML = '';
+    
 
       /* 显示所有任务 */
       for (let key of tasks) {
@@ -52,31 +53,41 @@
     });
     
     ul.addEventListener('click', e => {
-      let id = e.target.getAttribute('data-id')
-      if (!id) return 
-      
-      /* 移除任务显示 */
-      removeItemFromDOM(id);
-      removeItemFromArray(id);
-      /* 移除任务本地存储 */
-      localStorage.removeItem(id)
+      if (e.target.classList.contains('text')) {
+        e.target.closest('li').classList.toggle('completed');
+      } else if (e.target.tagName === 'BUTTON' || e.target.tagName == 'I') {
+        let id = e.target.closest('li').getAttribute('data-id');
+        if (!id) return 
+        /* 移除任务显示 */
+        removeItemFromDOM(id);
+        removeItemFromArray(id);
+        /* 移除任务本地存储 */
+        localStorage.removeItem(id)
+      }
     });
     
     function addItemToDOM(itemId, toDoItem) {    
       
-      // 创建一个列表
+      /* 创建一个列表 */
       const li = document.createElement('li')
       li.setAttribute("data-id", itemId);
       
-      // 将 todoItem 中的内容添加到列表中
-      li.innerText = toDoItem
-      
-      // 将 li 添加到 DOM
+      /* 为文本添加类 */
+      const textDiv = document.createElement('div');
+      textDiv.classList.add('text');
+      textDiv.innerText = toDoItem;
+      li.appendChild(textDiv);
+
+      /* 添加移除按钮 */
+      const removeButton = document.createElement('button');
+      removeButton.innerHTML = '<i class="fa-solid fa-trash"></i>';
+      li.appendChild(removeButton);
+
+      /* 将 li 添加到 DOM */
       ul.appendChild(li);
     }
     
     function addItemToArray(itemId, toDoItem) {
-      
       // 将项作为 ID 为的对象添加到数组中，以便以后可以查找和删除它
       toDoListArray.push({ itemId, toDoItem});
       console.log(toDoListArray)
