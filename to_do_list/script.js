@@ -1,30 +1,53 @@
+
 (() => { 
 
-    // 状态变量
+    window.onload = () => {
+      displayTasks();
+    };
+    /* 显示储存的任务清单 */
+    const displayTasks = () => {
+      let tasks = Object.keys(localStorage);
+      
+      /* 清楚当前显示内容 */
+      const ul = document.querySelector(".toDoList");
+      ul.innerHTML = '';
+
+      /* 显示所有任务 */
+      for (let key of tasks) {
+        let taskValue = localStorage.getItem(key);
+        addItemToDOM(key , taskValue);
+        addItemToArray(key, taskValue);
+      }
+    };
+    const updateStorage = (index, taskValue) => {
+      localStorage.setItem(index, taskValue);
+      displayTasks();
+    };
+
+    /* 状态变量 */
     let toDoListArray = [];
 
-    // ui 变量
+    /* ui 变量 */
     const form = document.querySelector(".form"); 
     const input = form.querySelector(".form_input");
     const ul = document.querySelector(".toDoList"); 
   
-    // 事件监听
+    /* 事件监听 */
     form.addEventListener('submit', e => {
       
-      // 页面重新加载时防止默认行为
+      /* 页面重新加载时防止默认行为 */
       e.preventDefault();
       
-      // 为项提供唯一 ID
+      /* 为项提供唯一 ID */
       let itemId = String(Date.now());
       
-      // 获取和分配输入值
+      /* 获取和分配输入值 */
       let toDoItem = input.value;
       
-      // 将 ID 和项传递到函数中
-      addItemToDOM(itemId , toDoItem);
-      addItemToArray(itemId, toDoItem);
-      
-      // 清除输入框
+      /* 添加任务到本地储存 */
+      updateStorage(itemId, toDoItem);
+
+      /* 清除输入框 */
       input.value = '';
     });
     
@@ -32,9 +55,11 @@
       let id = e.target.getAttribute('data-id')
       if (!id) return 
       
-      // 传递 id 到函数
+      /* 移除任务显示 */
       removeItemFromDOM(id);
       removeItemFromArray(id);
+      /* 移除任务本地存储 */
+      localStorage.removeItem(id)
     });
     
     function addItemToDOM(itemId, toDoItem) {    
