@@ -1,30 +1,5 @@
 
 (() => { 
-
-    window.onload = () => {
-      displayTasks();
-    };
-    /* 显示储存的任务清单 */
-    const displayTasks = () => {
-      let tasks = Object.keys(localStorage);
-      
-      /* 清楚当前显示内容 */
-      const ul = document.querySelector(".toDoList");
-      ul.innerHTML = '';
-    
-
-      /* 显示所有任务 */
-      for (let key of tasks) {
-        let taskValue = localStorage.getItem(key);
-        addItemToDOM(key , taskValue);
-        addItemToArray(key, taskValue);
-      }
-    };
-    const updateStorage = (index, taskValue) => {
-      localStorage.setItem(index, taskValue);
-      displayTasks();
-    };
-
     /* 状态变量 */
     let toDoListArray = [];
 
@@ -32,29 +7,59 @@
     const form = document.querySelector(".form"); 
     const input = form.querySelector(".form_input");
     const ul = document.querySelector(".toDoList"); 
-  
+
+    window.onload = () => {
+      displayTasks();
+    };
+
+    /* 显示储存的任务清单 */
+    const displayTasks = () => {
+      let tasks = Object.keys(localStorage);
+
+      /* 清楚当前显示内容 */
+      const ul = document.querySelector(".toDoList");
+      ul.innerHTML = '';
+      /* 显示所有任务 */
+      for (let key of tasks) {
+        const taskData = JSON.parse(localStorage.getItem(key));
+        addItemToDOM(key, taskData.value, taskData.completed);
+        // addItemToArray(key, taskValue);
+      }
+    };
+
+    /* 更新任务列表 */
+    const updateStorage = (index, taskValue, isCompleted = false) => {
+      const taskData = {
+        value: taskValue,
+        completed: isCompleted
+      };
+      localStorage.setItem(index, JSON.stringify(taskData));
+      displayTasks();
+    };
+
     /* 事件监听 */
     form.addEventListener('submit', e => {
-      
       /* 页面重新加载时防止默认行为 */
       e.preventDefault();
-      
       /* 为项提供唯一 ID */
       let itemId = String(Date.now());
-      
       /* 获取和分配输入值 */
       let toDoItem = input.value;
-      
       /* 添加任务到本地储存 */
       updateStorage(itemId, toDoItem);
-
       /* 清除输入框 */
       input.value = '';
     });
     
     ul.addEventListener('click', e => {
       if (e.target.classList.contains('text')) {
-        e.target.closest('li').classList.toggle('completed');
+        const li = e.target.closest('li');
+        li.classList.toggle('completed');
+        const id = li.getAttribute('data-id');
+        const taskData = JSON.parse(localStorage.getItem(id));
+        taskData.completed = li.classList.contains('completed');
+        localStorage.setItem(id, JSON.stringify(taskData))
+        // e.target.closest('li').classList.toggle('completed');
       } else if (e.target.tagName === 'BUTTON' || e.target.tagName == 'I') {
         let id = e.target.closest('li').getAttribute('data-id');
         if (!id) return 
@@ -66,12 +71,16 @@
       }
     });
     
-    function addItemToDOM(itemId, toDoItem) {    
+    function addItemToDOM(itemId, toDoItem, isCompleted = false) {    
       
       /* 创建一个列表 */
       const li = document.createElement('li')
       li.setAttribute("data-id", itemId);
       
+      if (isCompleted) {
+        li.classList.add('completed')
+      }
+
       /* 为文本添加类 */
       const textDiv = document.createElement('div');
       textDiv.classList.add('text');
