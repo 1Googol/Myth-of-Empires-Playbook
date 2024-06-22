@@ -65,7 +65,7 @@
         if (!id) return 
         /* 移除任务显示 */
         removeItemFromDOM(id);
-        removeItemFromArray(id);
+        // removeItemFromArray(id);
         /* 移除任务本地存储 */
         localStorage.removeItem(id)
       }
