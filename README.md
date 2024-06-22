@@ -3,7 +3,7 @@
 [![download](https://img.shields.io/badge/点击立即下载-帝国神话种植计算器-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.9/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E7%A7%8D%E6%A4%8D%E8%AE%A1%E7%AE%97%E5%99%A8_v0.9.9.exe)
 [![download](https://img.shields.io/badge/点击立即下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)  
 
-[![to_do_list]( https://img.shields.io/badge/打开-帝国神话检查单-FDE6E0)](./to_do_list/index.html)  
+[![to_do_list]( https://img.shields.io/badge/打开-帝国神话检查单-FDE6E0)](https://1googol.github.io/to_do_list/)  
 
 [![new issues](https://img.shields.io/badge/点击-提交问题或建议-green)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/issues/new)
   
