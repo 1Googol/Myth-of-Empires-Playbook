@@ -19,20 +19,42 @@ body {
         min-height: 100vh;
     }
 }
-
+  
 .container {
     width: 100%;
     height: auto;
-    min-height: 500px;
-    max-width: 500px;
-    min-width: 250px;
+    min-height: 31.25rem;
+    max-width: 31.25rem;
+    min-width: 15.6rem;
     background: #f1f5f8;
     background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
-    background-size: 25px 25px;
-    border-radius: 20px;
-    box-shadow: 4px 3px 7px 2px #000000;
+    background-size: 1.5rem 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 0.25rem 0.18rem 0.44rem 0.125rem #000000;
     padding: 1rem;
     box-sizing: border-box;
+}
+
+.back-arrow {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-size: 2rem;
+    color: #333333;
+    text-decoration: none;
+    z-index: 1000; /* 确保图标在所有内容之上 */
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-0.5rem);
+    }
+}
+.back-arrow:hover {
+    color: #2c3e50; /* 深蓝色 */
+    animation: bounce 0.5s infinite;
 }
 
 .heading {
