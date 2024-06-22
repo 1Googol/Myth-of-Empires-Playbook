@@ -3,6 +3,8 @@
 [![download](https://img.shields.io/badge/点击立即下载-帝国神话种植计算器-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.9/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E7%A7%8D%E6%A4%8D%E8%AE%A1%E7%AE%97%E5%99%A8_v0.9.9.exe)
 [![download](https://img.shields.io/badge/点击立即下载-帝国神话stem多开-blue.svg)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/releases/download/v0.9.2/%E5%B8%9D%E5%9B%BD%E7%A5%9E%E8%AF%9D%E5%8F%8C%E5%BC%80.exe)  
 
+[![to_do_list]( https://img.shields.io/badge/打开-帝国神话检查单-FDE6E0)](./to_do_list/index.html)  
+
 [![new issues](https://img.shields.io/badge/点击-提交问题或建议-green)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/issues/new)
   
 [![buy me a coffee](https://img.shields.io/badge/%E7%BB%99%E6%88%91%E4%B8%80%E6%9D%AF%E5%86%B0%E7%BE%8E%E5%BC%8F-orange?logo=buymeacoffee&label=ice)](/res/buymeacoffee/Pneumonoultramicroscopicsilicovolcanoconiosis.png)
@@ -14,7 +16,7 @@
 * [武将](#武将)
   * [攻城武将](#攻城武将)
   * [后勤武将](#后勤武将)
-  * [居家好武将](#居家好武将) - 武将模板推荐
+  * [居家好武将](#居家好武将)
 * [马](#马)
   * [跳跳马](#跳跳马)
   * [觉醒马](#觉醒马)
@@ -647,9 +649,9 @@
 * 为什么要采取这个策略
 
   ![论侵略者](/res/art_of_war/论侵略者.png)
-  
+
   ```txt
-  不打疼他们，你就永远是待宰的羔羊，养肥了就吃你肉。不要抱有幻想，谈什么都没用，因为目的都是为了宰你，不给就打，打完还要让你自己给，然后养肥了继续打。所以必须打疼他们，并且你不缺乏对抗的能力，你缺少的只是这篇兵法。
+  不打疼侵略者，你就永远是待宰的羔羊，养肥了就吃你肉。不要抱有幻想，谈什么都没用，因为目的都是为了宰你，不给就打，打完还要让你自己给，然后养肥了继续打。所以必须打疼他们，并且你不缺乏对抗的能力，你缺少的只是这篇兵法。
   ```
 
 </details>
@@ -710,7 +712,15 @@
 
 ### 检查单
 
-// TODO
+* 应用举例
+
+  1. 日常事项
+
+      ![日常](/res/tools/to_do_1.png)
+  
+  2. 紧急检查
+
+      ![紧急](/res/tools/to_do_2.png)
 
 </details>
 </br>
