@@ -7,7 +7,7 @@
 
 [![new issues](https://img.shields.io/badge/点击-提交问题或建议-green)](https://gitee.com/gyyvyvyvt/related-to-imperial-mythology/issues/new)
   
-[![buy me a coffee](https://img.shields.io/badge/%E7%BB%99%E6%88%91%E4%B8%80%E6%9D%AF%E5%86%B0%E7%BE%8E%E5%BC%8F-orange?logo=buymeacoffee&label=ice)](/res/buymeacoffee/Pneumonoultramicroscopicsilicovolcanoconiosis.png)
+[![buy me a coffee](https://img.shields.io/badge/%E7%BB%99%E6%88%91%E4%B8%80%E6%9D%AF%E5%86%B0%E7%BE%8E%E5%BC%8F-orange?logo=buymeacoffee&label=ice)](https://ko-fi.com/10googol)
 
 <br/>
 
